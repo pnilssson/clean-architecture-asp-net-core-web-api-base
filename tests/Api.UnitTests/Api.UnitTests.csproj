@@ -5,6 +5,10 @@
     <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyName>AspNetCoreWebApiBase.$(MSBuildProjectName)</AssemblyName>
+
+    <RootNamespace>AspNetCoreWebApiBase.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

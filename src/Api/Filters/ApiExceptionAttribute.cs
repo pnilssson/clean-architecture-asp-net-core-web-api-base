@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using Core.Exceptions;
+using AspNetCoreWebApiBase.Application.Exceptions;
 
-namespace Api.Filters
+namespace AspNetCoreWebApiBase.Api.Filters
 {
     public class ApiExceptionAttribute : ExceptionFilterAttribute
     {
